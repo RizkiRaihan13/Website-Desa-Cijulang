@@ -148,22 +148,23 @@
     }
 }
 
-@media (min-width: 400px) {
-    .navbar-dark {
-        position: absolute;
-        width: 100%;
-        top: 0;
-        left: 0;
-        z-index: 400;
-        background: transparent !important;
+@media (max-width: 350px) {
+    #menu {
+        font-size: 01.2rem; /* Mengurangi ukuran font */
+        text-align: center; /* Memusatkan teks */
     }
-    
-    .sticky-top.navbar-dark {
-        position: fixed;
-        background: var(--dark) !important;
+    #menu img {
+        width: 30px; /* Mengurangi lebar gambar */
+        height: 25px; /* Mengurangi tinggi gambar */
     }
-}
+    .navbar-toggler {
+        font-size: 1.5rem; /* Mengubah ukuran ikon toggle */
+    }
+    .navbar-toggler {
+        font-size: 1.5rem; /* Mengubah ukuran ikon toggle */
+    }
 
+}
 
 /*** Hero Header ***/
 .hero-header {
