@@ -166,6 +166,25 @@
 
 }
 
+@media (min-width: 400px) {
+    #menu {
+        font-size: 01.2rem; /* Mengurangi ukuran font */
+        text-align: center; /* Memusatkan teks */
+    }
+    #menu img {
+        width: 30px; /* Mengurangi lebar gambar */
+        height: 25px; /* Mengurangi tinggi gambar */
+    }
+    .navbar-toggler {
+        font-size: 1.5rem; /* Mengubah ukuran ikon toggle */
+    }
+    .navbar-toggler {
+        font-size: 1.5rem; /* Mengubah ukuran ikon toggle */
+    }
+
+}
+
+
 /*** Hero Header ***/
 .hero-header {
     background: linear-gradient(rgba(15, 23, 43, .7), rgba(15, 23, 43, .9)), url(../img/Kantor\ Desa\ Cijulang.PNG);
