@@ -164,11 +164,6 @@
         font-size: 1.5rem; 
     }
 
-    .team-item {
-        max-width: 130px;
-        display: flexbox;
-    }
-
     #judul {
         font-size: 01.7rem; 
         text-align: center; 
