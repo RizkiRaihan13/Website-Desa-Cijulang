@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="utf-8">
-    <title>Website Desa Cijulang</title>
+    <title>Website Desa Cijulang - Kec. Cihaurbeuti, Kab. Ciamis</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta name="description" content="Website resmi Desa Cijulang, Kecamatan Cihaurbeuti, Kabupaten Ciamis, Jawa Barat. Informasi profil desa, UMKM, perangkat desa, dan kegiatan KKN.">
+    <meta name="keywords" content="Desa Cijulang, Cihaurbeuti, Ciamis, Jawa Barat, UMKM, Perangkat Desa">
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -14,17 +14,15 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -35,71 +33,99 @@
 
 <body>
     <div class="container-xxl bg-white p-0">
+
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
+            <div class="spinner-border" style="width:3rem;height:3rem;color:var(--primary);" role="status">
+                <span class="visually-hidden">Loading...</span>
             </div>
         </div>
         <!-- Spinner End -->
 
-        <!-- Navbar & Hero Start -->
+
+        <!-- ===== NAVBAR & HERO ===== -->
         <div class="container-xxl position-relative p-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
-                <a href="" class="navbar-brand p-0">
-                   <h1 class="text-primary m-0" id="menu">
-                        <img src="img/LogoKab.Ciamis.png" alt="Utensils Icon" class="m-2 mt-0" style="width:50px; height:40px;">
-                         DESA CIJULANG
+
+            <nav class="navbar navbar-expand-lg navbar-dark sticky-top px-4 px-lg-5 py-3 py-lg-0" id="mainNav">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1 class="m-0" id="menu" style="color:var(--accent)!important; font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:1.15rem; display:flex; align-items:center; gap:10px;">
+                        <img src="img/LogoKab.Ciamis.png" alt="Logo Kabupaten Ciamis" style="width:42px;height:34px;object-fit:contain;">
+                        DESA CIJULANG
                     </h1>
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false">
+                    <i class="fa fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.html" class="nav-item nav-link active">Beranda</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> Lembaga Masyarakat</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Lembaga Masyarakat</a>
                             <div class="dropdown-menu m-0">
-                                <a href="bpd.html" class="dropdown-item">BPD</a>
-                                <a href="lpm.html" class="dropdown-item">LPM</a>
+                                <a href="bpd.html"          class="dropdown-item">BPD</a>
+                                <a href="lpm.html"          class="dropdown-item">LPM</a>
                                 <a href="karangtaruna.html" class="dropdown-item">Karangtaruna</a>
-                                <a href="pkk.html" class="dropdown-item">PKK</a>
+                                <a href="pkk.html"          class="dropdown-item">PKK</a>
                             </div>
                         </div>
-                       <div class="nav-item dropdown">
+                        <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Tentang Desa</a>
                             <div class="dropdown-menu m-0">
-                                <a href="about.html" class="dropdown-item">Profil Desa</a>
+                                <a href="about.html"   class="dropdown-item">Profil Desa</a>
                                 <a href="sejarah.html" class="dropdown-item">Sejarah Desa</a>
                                 <a href="wilayah.html" class="dropdown-item">Wilayah Administratif</a>
                             </div>
                         </div>
-                        <a href="umkm.html" class="nav-item nav-link">UMKM</a>
-                        
+                        <a href="umkm.html"    class="nav-item nav-link">UMKM</a>
                         <a href="contact.html" class="nav-item nav-link">Kontak</a>
-                        <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Kegiatan Desa</a>
                             <div class="dropdown-menu m-0">
                                 <a href="kkn.html" class="dropdown-item">KKN</a>
-                                <!-- <a href="team.html" class="dropdown-item">Pertanian</a> -->
                             </div>
                         </div>
                     </div>
                 </div>
             </nav>
 
-            <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container my-5 py-5">
+            <!-- Hero -->
+            <div class="container-xxl hero-header mb-0 mb-lg-5">
+                <div class="container py-5">
                     <div class="row align-items-center g-5">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft">Desa Cijulang<br>Kec Cihaurbeuti</h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2">Kabupaten Ciamis Jawa Barat, Indonesia</p>
-                            <a href="#profil" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft">Profil Desa</a>
+                        <div class="col-lg-6 text-center text-lg-start wow fadeInLeft" data-wow-delay="0.1s">
+                            <div class="hero-badge">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Kec. Cihaurbeuti &nbsp;·&nbsp; Kab. Ciamis
+                            </div>
+                            <h1>Selamat Datang di<br><span>Desa Cijulang</span></h1>
+                            <p class="hero-sub">Membangun desa yang maju, mandiri, dan sejahtera bersama seluruh warga Desa Cijulang, Jawa Barat.</p>
+                            <div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+                                <a href="#profil" class="btn btn-primary px-4 py-3">
+                                    <i class="fas fa-info-circle me-2"></i>Profil Desa
+                                </a>
+                                <a href="contact.html" class="btn btn-outline-primary px-4 py-3" style="color:#fff;border-color:rgba(255,255,255,.5);">
+                                    <i class="fas fa-phone me-2"></i>Hubungi Kami
+                                </a>
+                            </div>
+                            <div class="hero-stats mt-4">
+                                <div class="stat">
+                                    <div class="stat-num">138</div>
+                                    <div class="stat-label">Tahun Berdiri</div>
+                                </div>
+                                <div class="stat" style="border-left:1px solid rgba(255,255,255,.2);padding-left:32px;">
+                                    <div class="stat-num">4.7K</div>
+                                    <div class="stat-label">Jiwa Penduduk</div>
+                                </div>
+                                <div class="stat" style="border-left:1px solid rgba(255,255,255,.2);padding-left:32px;">
+                                    <div class="stat-num">5</div>
+                                    <div class="stat-label">Dusun</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6 text-center text-lg-end overflow-hidden mb-5 pb-4">
-                            <img class="img-fluid" src="img/LogoKab.Ciamis.png" alt="">
+                        <div class="col-lg-6 text-center wow fadeInRight" data-wow-delay="0.2s">
+                            <div class="hero-logo-wrap">
+                                <img class="img-fluid" src="img/LogoKab.Ciamis.png" alt="Logo Desa Cijulang" style="max-width:260px;">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -108,50 +134,48 @@
         <!-- Navbar & Hero End -->
 
 
-        <!-- Service Start -->
-        <div class="container-xxl py-5">
+        <!-- ===== LEMBAGA MASYARAKAT ===== -->
+        <div class="container-xxl py-5 service-section">
             <div class="container">
-                <div class="row g-4">
-                    
-                        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-                            <a href="bpd.html">
-                            <div class="service-item rounded pt-3">
-                                <div class="p-4 logo">
-                                    <img src="img/logo_bpd.png" style="width: 100%; height: 120px; object-fit: contain; object-position: center; margin-left: 38px; margin-bottom: 10px; margin-top: -10px; display: block; margin: 0 auto;"/>
-                                    <h5 style="text-align: center;">BPD</h5>
-                                </div>
-                            </div>
-                            </a>
-                        </div> 
-                    
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a href="lpm.html">
-                            <div class="service-item rounded pt-3">
-                                <div class="p-4">
-                                    <img src="img/logo_lpm.png" style="width: 100%; height: 120px; object-fit: contain; object-position: center; margin-left: 38px; margin-bottom: 10px; margin-top: -10px; display: block; margin: 0 auto;"/>
-                                    <h5 style="text-align: center;">LPM</h5>
-                                </div>
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="section-tag justify-content-center">Organisasi Desa</div>
+                    <h2 class="mb-0">Lembaga Masyarakat</h2>
+                    <div class="section-divider mt-3"></div>
+                </div>
+                <div class="row g-3 g-md-4">
+                    <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.1s">
+                        <a href="bpd.html" class="service-item text-center h-100">
+                            <div class="p-3 p-md-4 py-4 py-md-5">
+                                <img src="img/logo_bpd.png" style="width:100%;height:80px;object-fit:contain;" alt="Logo BPD">
+                                <h5>BPD</h5>
+                                <small>Badan Permusyawaratan Desa</small>
                             </div>
                         </a>
                     </div>
-                
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="karangtaruna.html">
-                            <div class="service-item rounded pt-3">
-                                <div class="p-4">
-                                    <img src="img/logo_Karangtaruna.png" style="width: 100%; height: 120px; object-fit: contain; object-position: center; margin-left: 38px; margin-bottom: 10px; margin-top: -10px; display: block; margin: 0 auto;"/>
-                                    <h5 style="text-align: center;">Karangtaruna</h5>
-                                </div>
+                    <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <a href="lpm.html" class="service-item text-center h-100">
+                            <div class="p-3 p-md-4 py-4 py-md-5">
+                                <img src="img/logo_lpm.png" style="width:100%;height:80px;object-fit:contain;" alt="Logo LPM">
+                                <h5>LPM</h5>
+                                <small>Lembaga Pemberdayaan Masyarakat</small>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <a href="pkk.html">
-                            <div class="service-item rounded pt-3">
-                                <div class="p-4">
-                                    <img src="img/logo_pkk.png" style="width: 100%; height: 120px; object-fit: contain; object-position: center; margin-left: 38px; margin-bottom: 10px; margin-top: -10px; display: block; margin: 0 auto;"/>
-                                    <h5 style="text-align: center;">PKK</h5>
-                                </div>
+                    <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+                        <a href="karangtaruna.html" class="service-item text-center h-100">
+                            <div class="p-3 p-md-4 py-4 py-md-5">
+                                <img src="img/logo_Karangtaruna.png" style="width:100%;height:80px;object-fit:contain;" alt="Logo Karangtaruna">
+                                <h5>Karangtaruna</h5>
+                                <small>Organisasi Pemuda Desa</small>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <a href="pkk.html" class="service-item text-center h-100">
+                            <div class="p-3 p-md-4 py-4 py-md-5">
+                                <img src="img/logo_pkk.png" style="width:100%;height:80px;object-fit:contain;" alt="Logo PKK">
+                                <h5>PKK</h5>
+                                <small>Pemberdayaan Kesejahteraan Keluarga</small>
                             </div>
                         </a>
                     </div>
@@ -160,488 +184,425 @@
         </div>
         <!-- Service End -->
 
-        <!-- About Start -->
-        <div class="container-xxl py-5" id="profil">
+
+        <!-- ===== PROFIL DESA ===== -->
+        <div class="container-xxl py-5 about-section" id="profil">
             <div class="container">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6">
-                        <div class="row g-3">
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/desa 1.jpg">
+                    <!-- Image Grid -->
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="about-photo-grid">
+                            <img class="photo-main" src="img/desa 1.jpg" alt="Desa Cijulang">
+                            <div class="photo-side">
+                                <img class="photo-sm" src="img/desa 3.jpg" alt="Desa Cijulang">
+                                <img class="photo-sm" src="img/desa 4.jpg" alt="Desa Cijulang">
                             </div>
-                            <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/desa 3.jpg" style="margin-top: 43%;">
-                            </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/desa 4.jpg">
-                            </div>
-                            <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/desa 2.jpg">
-                            </div>
+                            <img class="photo-bottom" src="img/desa 2.jpg" alt="Desa Cijulang">
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <h5 class="section-title text-start text-primary fw-normal">Profil Desa</h5>
-                        <h1 class="mb-4">Selamat Datang di Desa Cijulang</h1>
-                        <p class="mb-4" style="text-align: justify;">Desa Cijulang adalah salah satu desa di Kecamatan Cihaurbeuti, Kabupaten Ciamis, Provinsi Jawa Barat. Desa Cijulang dibentuk pada abad ke-19 atau pada tahun 1886. Secara astronomis berada pada 108° 11° LU dan 7° 11° BT yang terdiri dari 5 Dusun yaitu Dusun Desa atau Dusun Cijulang, Dusun Cikole Kulon, Dusun Cikole Wetan, Dusun Cicurug, dan Dusun Cipurut.
-                            Desa Cijulang dipimpin oleh seorang kepala desa yang bernama Bapak Endang Hidayat, S.T. yang dibantu oleh sekretaris desa, sejumlah kepala desa urusan, beberapa kepala dusun yang dibantu oleh RT, RW dan sejumlah warga desa Cijulang.
-                            </p>
-                        <p class="mb-4" style="text-align: justify;">Mata pencaharian Sebagian besar penduduk desa Cijulang adalah buruh tani dan buruhh harian lepas. Selain itu, desa Cijulang mempunyai lahan pertanian yang dapat menghasilkan palawija seperti kacang-kacangan dan padi.</p>
-                        <div class="row g-4 mb-4">
+                    <!-- Text -->
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="section-tag">Tentang Kami</div>
+                        <h2 class="mb-4">Selamat Datang di<br>Desa Cijulang</h2>
+                        <p style="text-align:justify;" class="mb-3">
+                            Desa Cijulang adalah salah satu desa di Kecamatan Cihaurbeuti, Kabupaten Ciamis, Provinsi Jawa Barat. Desa Cijulang dibentuk pada abad ke-19 atau pada tahun 1886. Secara astronomis berada pada 108° 11° LU dan 7° 11° BT yang terdiri dari 5 Dusun yaitu Dusun Desa atau Dusun Cijulang, Dusun Cikole Kulon, Dusun Cikole Wetan, Dusun Cicurug, dan Dusun Cipurut.
+                        </p>
+                        <p style="text-align:justify;" class="mb-5">
+                            Desa Cijulang dipimpin oleh seorang kepala desa yaitu Bapak Endang Hidayat, S.T. yang dibantu oleh sekretaris desa, kepala urusan, kepala dusun, RT, RW, dan seluruh warga Desa Cijulang.
+                        </p>
+                        <div class="row g-3 mb-4">
                             <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">138</h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0">Tahun</p>
-                                        <h6 class="text-uppercase mb-0">Berdiri</h6>
+                                <div class="stat-card">
+                                    <div class="stat-icon"><i class="fas fa-calendar-alt"></i></div>
+                                    <div>
+                                        <div class="stat-num" data-toggle="counter-up">138</div>
+                                        <div class="stat-label">Tahun Berdiri (1886)</div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">4707</h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0">Jiwa</p>
-                                        <h6 class="text-uppercase mb-0">Penduduk</h6>
+                                <div class="stat-card">
+                                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                                    <div>
+                                        <div class="stat-num" data-toggle="counter-up">4707</div>
+                                        <div class="stat-label">Jiwa Penduduk</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon"><i class="fas fa-map"></i></div>
+                                    <div>
+                                        <div class="stat-num" data-toggle="counter-up">5</div>
+                                        <div class="stat-label">Dusun</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="stat-card">
+                                    <div class="stat-icon"><i class="fas fa-store"></i></div>
+                                    <div>
+                                        <div class="stat-num" data-toggle="counter-up">8</div>
+                                        <div class="stat-label">UMKM Aktif</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <a href="about.html" class="btn btn-primary px-4 py-3">
+                            Selengkapnya <i class="fas fa-arrow-right ms-2"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <!-- About End -->
 
-        <!-- Umkm Start -->
-        <div class="container-xxl py-5">
+
+        <!-- ===== UMKM ===== -->
+        <div class="container-xxl py-5 umkm-section">
             <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title text-center text-primary fw-normal">UMKM Desa Cijulang</h5>
-                    <h2 class="mb-5">Usaha Mikro Kecil dan Menengah</h2>
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="section-tag justify-content-center">Ekonomi Lokal</div>
+                    <h2 class="mb-0">UMKM Desa Cijulang</h2>
+                    <p class="mt-2" style="color:var(--text-2);">Usaha Mikro Kecil dan Menengah unggulan warga desa</p>
+                    <div class="section-divider mt-3"></div>
                 </div>
-                <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="tab-content">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/beras organik.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Beras Organik</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/6282115162125/?text=Hallo, saya ingin membeli Beras Organik" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                    <img class="flex-shrink-0 img-fluid rounded" src="img/sotong.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Sotong</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/6289541916312/?text=Hallo kak, saya ingin memesan Sotong" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/tahubulat.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Tahu Bulat</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/6288213308465/?text=Hallo kak, saya ingin memesan Dapros" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/dapros.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Dapros</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/6281212100296/?text=Hallo kak, saya ingin memesan Dapros" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/sistik.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Sistik</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/628998993944/?text=Hallo kak, saya ingin memesan Sistik" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/awug.jpeg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Awug</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/6281321058597/?text=Hallo kak, saya ingin memesan Awug" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/glory.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Glory</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/6289665447801/?text=Hallo, saya ingin memesan baju jersey" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="d-flex align-items-center">
-                                        <img class="flex-shrink-0 img-fluid rounded" src="img/Cipeng Asoy.jpg" alt="" style="width: 80px;">
-                                        <div class="w-100 d-flex flex-column text-start ps-4">
-                                            <h5 class="d-flex justify-content-between border-bottom pb-2">
-                                                <span>Comring</span>
-                                            </h5>
-                                            <a class="btn btn-primary mt-0" href="https://wa.me/6288213308465/?text=Hallo kak, saya ingin memesan Dapros" target="_blank">Order</a>
-                                        </div>
-                                    </div>
-                                </div>
+                <div class="row g-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/beras organik.jpg" alt="Beras Organik">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Beras Organik</div>
+                                <a class="btn-order" href="https://wa.me/6282115162125/?text=Hallo, saya ingin membeli Beras Organik" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/sotong.jpg" alt="Sotong">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Sotong</div>
+                                <a class="btn-order" href="https://wa.me/6289541916312/?text=Hallo kak, saya ingin memesan Sotong" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/tahubulat.jpg" alt="Tahu Bulat">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Tahu Bulat</div>
+                                <a class="btn-order" href="https://wa.me/6288213308465/?text=Hallo kak, saya ingin memesan Tahu Bulat" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/dapros.jpg" alt="Dapros">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Dapros</div>
+                                <a class="btn-order" href="https://wa.me/6281212100296/?text=Hallo kak, saya ingin memesan Dapros" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/sistik.jpg" alt="Sistik">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Sistik</div>
+                                <a class="btn-order" href="https://wa.me/628998993944/?text=Hallo kak, saya ingin memesan Sistik" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/awug.jpeg" alt="Awug">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Awug</div>
+                                <a class="btn-order" href="https://wa.me/6281321058597/?text=Hallo kak, saya ingin memesan Awug" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/glory.jpg" alt="Glory">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Glory (Jersey)</div>
+                                <a class="btn-order" href="https://wa.me/6289665447801/?text=Hallo, saya ingin memesan baju jersey" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="umkm-card">
+                            <img src="img/Cipeng Asoy.jpg" alt="Comring">
+                            <div class="flex-grow-1">
+                                <div class="umkm-name">Comring</div>
+                                <a class="btn-order" href="https://wa.me/6288213308465/?text=Hallo kak, saya ingin memesan Comring" target="_blank"><i class="fab fa-whatsapp me-1"></i>Order</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="umkm.html" class="btn btn-primary px-5 py-3">
+                        Lihat Semua UMKM <i class="fas fa-arrow-right ms-2"></i>
+                    </a>
                 </div>
             </div>
         </div>
-        <!-- Menu End -->
+        <!-- UMKM End -->
 
-        <!-- Team Start -->
-        <div class="container-xxl pt-5 pb-3">
+
+        <!-- ===== PERANGKAT DESA ===== -->
+        <div class="container-xxl py-5 team-section">
             <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="section-title text-center text-primary fw-normal">Perangkat Desa</h5>
-                    <h1 class="mb-5">Anggota Desa</h1>
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="section-tag justify-content-center" style="color:#4ade80;">
+                        <span style="background:#4ade80;width:28px;height:2px;display:block;border-radius:2px;"></span>
+                        Aparat Desa
+                        <span style="background:#4ade80;width:28px;height:2px;display:block;border-radius:2px;"></span>
+                    </div>
+                    <h2 class="mb-0" style="color:#fff;">Perangkat Desa</h2>
+                    <p class="mt-2" style="color:rgba(255,255,255,.55);">Aparatur pemerintahan Desa Cijulang yang melayani masyarakat</p>
+                    <div class="section-divider mt-3" style="background:var(--primary);"></div>
                 </div>
                 <div class="row g-4">
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/kades.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Endang Hidayat, S.T</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/kades.jpg" alt="Endang Hidayat">
+                            <h5>Endang Hidayat, S.T</h5>
                             <small>Kepala Desa</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/Sutaryo.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Sutaryo</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.15s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/Sutaryo.jpg" alt="Sutaryo">
+                            <h5>Sutaryo</h5>
                             <small>Sekertaris Desa</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/ramhat.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Rahmat Sugandi, S.Ikom</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/ramhat.jpg" alt="Rahmat Sugandi">
+                            <h5>Rahmat Sugandi, S.Ikom</h5>
                             <small>Kaur Perencanaan</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/nenden.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Nenden Ayu Arisandi, S.Pd</h5>
-                            <small>Kaur Keuangan</small> 
-                            <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.25s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/nenden.jpg" alt="Nenden Ayu">
+                            <h5>Nenden Ayu Arisandi, S.Pd</h5>
+                            <small>Kaur Keuangan</small>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/Ibu Ai.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Titin Suprianti S, S.P</h5>
-                            <small>Kaur TU & Umum</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.30s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/Ibu Ai.jpg" alt="Titin Suprianti">
+                            <h5>Titin Suprianti S, S.P</h5>
+                            <small>Kaur TU &amp; Umum</small>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/Ayi.jpg " alt="">
-                            </div>
-                            <h5 class="mb-0">Ayi Riyanto</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.35s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/Ayi.jpg " alt="Ayi Riyanto">
+                            <h5>Ayi Riyanto</h5>
                             <small>Kasi Pemerintahan</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/sudirman.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Sudirman</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/sudirman.jpg" alt="Sudirman">
+                            <h5>Sudirman</h5>
                             <small>Kasi Kesejahteraan</small>
-                            <div class="d-flex justify-content-center mt-3">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/Undang Mulyana.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Undang Mulyana, S.T</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.45s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/Undang Mulyana.jpg" alt="Undang Mulyana">
+                            <h5>Undang Mulyana, S.T</h5>
                             <small>Kasi Pelayanan</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/Rachmat Ramdani.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Rachmat Ramdani, S.T</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/Rachmat Ramdani.jpg" alt="Rachmat Ramdani">
+                            <h5>Rachmat Ramdani, S.T</h5>
                             <small>Lurah Dusun Desa</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/nana juhana.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Nana Juhana</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.55s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/nana juhana.jpg" alt="Nana Juhana">
+                            <h5>Nana Juhana</h5>
                             <small>Lurah Dusun Cikole Kulon</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/Bapak Rizal.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Rizal Zaman Syarie Hidayat, S.T</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/Bapak Rizal.jpg" alt="Rizal Zaman">
+                            <h5>Rizal Zaman S.H, S.T</h5>
                             <small>Lurah Dusun Cikole Wetan</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/Ibu didah nuraidah.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Didah Nuraidah</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.65s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/Ibu didah nuraidah.jpg" alt="Didah Nuraidah">
+                            <h5>Didah Nuraidah</h5>
                             <small>Lurah Dusun Cicurug</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-6 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item text-center rounded overflow-hidden">
-                            <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/pang pahrudin.jpg" alt="">
-                            </div>
-                            <h5 class="mb-0">Ipang Pahrudin</h5>
+                    <div class="col-6 col-lg-2 col-md-4 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item text-center">
+                            <img class="team-avatar" src="img/pang pahrudin.jpg" alt="Ipang Pahrudin">
+                            <h5>Ipang Pahrudin</h5>
                             <small>Lurah Dusun Cipurut</small>
-                            <div class="d-flex justify-content-center mt-5">
-                                <!-- <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a> -->
-                            </div>
                         </div>
-                    </div>         
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Team End -->
 
 
-        <!-- kkn Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- ===== KKN ===== -->
+        <div class="container-xxl py-5 kkn-section wow fadeInUp" data-wow-delay="0.1s">
             <div class="container">
-                <div class="text-center">
-                    <h5 class="section-title text-center text-primary fw-normal"> Kegiatan KKN</h5>
-                    <h1 class="mb-5">KKN Universitas Perjuangan Tasikmalaya</h1>
+                <div class="text-center mb-5">
+                    <div class="section-tag justify-content-center">Program Mahasiswa</div>
+                    <h2 class="mb-0">KKN Universitas Perjuangan Tasikmalaya</h2>
+                    <p class="mt-2" style="color:var(--text-2);">Kegiatan Kuliah Kerja Nyata yang telah dilaksanakan di Desa Cijulang</p>
+                    <div class="section-divider mt-3"></div>
                 </div>
                 <div class="owl-carousel testimonial-carousel">
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p style="text-align: justify;">Meningkatkan kesadaran masyarakat tentang pentingnya gizi dan kesehatan melalui 
-                            budidaya tanaman kaya gizi dan obat, serta menerapkan metode pengendalian hama ramah lingkungan.</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="img/K-apotek hidup.jpg" style="width: 100px; height: 100px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Sosialisasi Perkebunan Gizi, Apotek Hidup dan Yellow Trap</h5>
-                            </div>
+                        <p style="text-align:justify;">Meningkatkan kesadaran masyarakat tentang pentingnya gizi dan kesehatan melalui budidaya tanaman kaya gizi dan obat, serta menerapkan metode pengendalian hama ramah lingkungan.</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img class="img-fluid flex-shrink-0" src="img/K-apotek hidup.jpg" style="width:80px;height:80px;object-fit:cover;border-radius:10px;">
+                            <h5 class="mb-0">Sosialisasi Perkebunan Gizi, Apotek Hidup dan Yellow Trap</h5>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p style="text-align: justify;"> Mengurangi kerusakan tanaman akibat serangan
-                            hama dengan penggunaan yellow trap, sehingga
-                            dapat meningkatkan hasil panen dan kualitas produk
-                            pertanian dan memanfaatkan lingkungan</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="img/yellow-trap.jpg" style="width: 100px; height: 100px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Pengaplikasian Yellow Trap</h5>
-                            </div>
+                        <p style="text-align:justify;">Mengurangi kerusakan tanaman akibat serangan hama dengan penggunaan yellow trap, sehingga dapat meningkatkan hasil panen dan kualitas produk pertanian.</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img class="img-fluid flex-shrink-0" src="img/yellow-trap.jpg" style="width:80px;height:80px;object-fit:cover;border-radius:10px;">
+                            <h5 class="mb-0">Pengaplikasian Yellow Trap</h5>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p style="text-align: justify;">Memperkuat citra merek UMKM Dapros di mata konsumen melalui strategi pemasaran yang efektif, peningkatan kualitas produk dan layanan, serta memperluas jangkauan pasar.</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="img/umkm dapros.jpg" style="width: 100px; height: 100px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Meningkatkan Brand Image pada UMKM Dapros</h5>
-                            </div>
+                        <p style="text-align:justify;">Memperkuat citra merek UMKM Dapros di mata konsumen melalui strategi pemasaran yang efektif, peningkatan kualitas produk dan layanan, serta memperluas jangkauan pasar.</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img class="img-fluid flex-shrink-0" src="img/umkm dapros.jpg" style="width:80px;height:80px;object-fit:cover;border-radius:10px;">
+                            <h5 class="mb-0">Meningkatkan Brand Image pada UMKM Dapros</h5>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p style="text-align: justify;">Meningkatkan pemahaman siswa  dalam memanfaatkan teknologi AR untuk membantu siswa memahami materi pelajaran dengan lebih baik melalui visualisasi 3D yang interaktif dan menarik.</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="img/AR.jpg" style="width: 100px; height: 100px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Sosialisasi dengan guru mengenai Teknologi AR</h5>
-                            </div>
+                        <p style="text-align:justify;">Meningkatkan pemahaman siswa dalam memanfaatkan teknologi AR untuk membantu siswa memahami materi pelajaran dengan lebih baik melalui visualisasi 3D yang interaktif dan menarik.</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img class="img-fluid flex-shrink-0" src="img/AR.jpg" style="width:80px;height:80px;object-fit:cover;border-radius:10px;">
+                            <h5 class="mb-0">Sosialisasi Teknologi AR dengan Guru</h5>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p style="text-align: justify;">Memperkenalkan konsep dasar mini hidroponik kepada anak-anak, membantu anak-anak mengembangkan keterampilan praktis dalam merawat tanaman dengan sistem hidroponik.
-                            </p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="img/mini-hidroponik.jpg" style="width: 100px; height: 100px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Pembuatan Mini Hidroponik di SD 2 Cijulang</h5>
-                            </div>
+                        <p style="text-align:justify;">Memperkenalkan konsep dasar mini hidroponik kepada anak-anak, membantu anak-anak mengembangkan keterampilan praktis dalam merawat tanaman dengan sistem hidroponik.</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img class="img-fluid flex-shrink-0" src="img/mini-hidroponik.jpg" style="width:80px;height:80px;object-fit:cover;border-radius:10px;">
+                            <h5 class="mb-0">Pembuatan Mini Hidroponik di SD 2 Cijulang</h5>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p style="text-align: justify;">Meningkatkan pemahaman siswa dalam
-                            memanfaatkan teknologi AR untuk membantu siswa
-                            memahami materi system tata surya dengan lebih
-                            baik melalui visualisasi 3D </p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="img/tatasurya.jpg" style="width: 100px; height: 100px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Mengajar Tata Surya dengan Tekonologi AR di SD 1 Cijulang</h5>
-                            </div>
+                        <p style="text-align:justify;">Meningkatkan pemahaman siswa dalam memanfaatkan teknologi AR untuk membantu siswa memahami materi sistem tata surya melalui visualisasi 3D.</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img class="img-fluid flex-shrink-0" src="img/tatasurya.jpg" style="width:80px;height:80px;object-fit:cover;border-radius:10px;">
+                            <h5 class="mb-0">Mengajar Tata Surya dengan Teknologi AR di SD 1 Cijulang</h5>
                         </div>
                     </div>
                     <div class="testimonial-item bg-transparent border rounded p-4">
                         <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p style="text-align: justify;">Tujuan PMT untuk meningkatkan setatus gizi anak
-                            serta untuk mencukupi kebutuhan zat gizi anak. Tujuan Pemberian Vitamin A untuk meningkatkan
-                            Kesehatan mata dan daya tahan tubuh</p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0" src="img/pmt.jpg" style="width: 100px; height: 100px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1">Pembagian PMT dan Vitamin A di Posyandu Cempaka</h5>
-                            </div>
+                        <p style="text-align:justify;">Tujuan PMT untuk meningkatkan status gizi anak serta mencukupi kebutuhan zat gizi anak. Tujuan Pemberian Vitamin A untuk meningkatkan kesehatan mata dan daya tahan tubuh.</p>
+                        <div class="d-flex align-items-center gap-3 mt-3">
+                            <img class="img-fluid flex-shrink-0" src="img/pmt.jpg" style="width:80px;height:80px;object-fit:cover;border-radius:10px;">
+                            <h5 class="mb-0">Pembagian PMT dan Vitamin A di Posyandu Cempaka</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- kkn End -->
-        
+        <!-- KKN End -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-0 pb-2">
+
+        <!-- ===== FOOTER ===== -->
+        <div class="container-fluid footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-4">
                 <div class="row g-5">
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title text-start text-primary fw-normal mb-4">Fitur</h4>
-                        <a class="btn btn-link" href="">Beranda</a>
-                        <a class="btn btn-link" href="">Lembaga Masyarakat</a>
-                        <a class="btn btn-link" href="">Tentang Desa</a>
-                        <a class="btn btn-link" href="">UMKM</a>
-                        <a class="btn btn-link" href="">Kontak</a>
-                        <a class="btn btn-link" href="">Kegiatan Desa</a>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title text-start text-primary fw-normal mb-4">Kontak</h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Desa Cijulang, Kec.Cihaurbeuti, Jawa Barat</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i>desacijulang@gmail.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <!-- About Footer -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <img src="img/LogoKab.Ciamis.png" alt="Logo" style="width:48px;height:38px;object-fit:contain;">
+                            <h4 style="color:#fff;font-family:'Plus Jakarta Sans',sans-serif;font-weight:800;margin:0;font-size:1.1rem;">DESA CIJULANG</h4>
+                        </div>
+                        <p style="color:rgba(255,255,255,.55);font-size:14px;line-height:1.8;margin-bottom:20px;">
+                            Desa Cijulang, Kecamatan Cihaurbeuti, Kabupaten Ciamis, Provinsi Jawa Barat. Melayani masyarakat dengan sepenuh hati.
+                        </p>
+                        <div class="d-flex gap-2">
+                            <a class="btn btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-social" href=""><i class="fab fa-twitter"></i></a>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title text-start text-primary fw-normal mb-4">Buka</h4>
-                        <h5 class="text-light fw-normal">Senin - Jumat</h5>
-                        <p>08:00 - 15:00</p>
-                        <h5 class="text-light fw-normal">Sabtu</h5>
-                        <p>08:00 - 12:00</p>
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="section-title text-start text-primary fw-normal mb-4" style="color:var(--primary)!important;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em;">Menu</h4>
+                        <a class="btn btn-link" href="index.html">Beranda</a>
+                        <a class="btn btn-link" href="about.html">Profil Desa</a>
+                        <a class="btn btn-link" href="umkm.html">UMKM</a>
+                        <a class="btn btn-link" href="contact.html">Kontak</a>
+                        <a class="btn btn-link" href="kkn.html">Kegiatan KKN</a>
                     </div>
+                    <!-- Lembaga -->
+                    <div class="col-lg-2 col-md-6">
+                        <h4 class="section-title text-start text-primary fw-normal mb-4" style="color:var(--primary)!important;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em;">Lembaga</h4>
+                        <a class="btn btn-link" href="bpd.html">BPD</a>
+                        <a class="btn btn-link" href="lpm.html">LPM</a>
+                        <a class="btn btn-link" href="karangtaruna.html">Karangtaruna</a>
+                        <a class="btn btn-link" href="pkk.html">PKK</a>
+                    </div>
+                    <!-- Kontak -->
+                    <div class="col-lg-4 col-md-6">
+                        <h4 class="section-title text-start text-primary fw-normal mb-4" style="color:var(--primary)!important;font-size:.9rem;text-transform:uppercase;letter-spacing:.05em;">Kontak</h4>
+                        <div class="footer-contact-item">
+                            <i class="fa fa-map-marker-alt"></i>
+                            <span>Desa Cijulang, Kec. Cihaurbeuti, Kab. Ciamis, Jawa Barat</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa fa-phone-alt"></i>
+                            <span>+012 345 67890</span>
+                        </div>
+                        <div class="footer-contact-item">
+                            <i class="fa fa-envelope"></i>
+                            <span>desacijulang@gmail.com</span>
+                        </div>
+                        <!-- Office Hours -->
+                        <div class="mt-3" style="padding:16px;background:rgba(255,255,255,.04);border-radius:12px;border:1px solid rgba(255,255,255,.08);">
+                            <div style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--primary);margin-bottom:10px;">Jam Pelayanan</div>
+                            <div style="display:flex;justify-content:space-between;font-size:13px;color:rgba(255,255,255,.6);margin-bottom:6px;">
+                                <span>Senin – Jumat</span><span>08:00 – 15:00</span>
+                            </div>
+                            <div style="display:flex;justify-content:space-between;font-size:13px;color:rgba(255,255,255,.6);">
+                                <span>Sabtu</span><span>08:00 – 12:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copyright -->
+            <div class="container">
+                <div class="copyright">
+                    &copy; 2024 <a href="index.html">Desa Cijulang</a>. All rights reserved. &nbsp;|&nbsp; Designed with <i class="fas fa-heart" style="color:var(--primary);"></i> for masyarakat desa.
                 </div>
             </div>
         </div>
@@ -649,23 +610,34 @@
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top" title="Kembali ke atas">
+            <i class="bi bi-arrow-up"></i>
+        </a>
     </div>
 
     <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+
+    <script>
+        // Smooth sticky navbar on scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.getElementById('mainNav');
+            if (window.scrollY > 60) {
+                nav.classList.add('sticky-top');
+            } else {
+                nav.classList.remove('sticky-top');
+            }
+        });
+    </script>
 </body>
 
 </html>
